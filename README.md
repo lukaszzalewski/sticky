@@ -1,5 +1,12 @@
 # Sticky
-![build](https://github.com/linuxmint/sticky/actions/workflows/build.yml/badge.svg)
+
+A fork of [linuxmint/sticky](https://github.com/linuxmint/sticky) with extra features.
+
+## Fork features
+
+- **Hide individual notes** - click the eye icon in a note's title bar (or pick *Hide Note* from its right-click menu) to hide just that note. Hidden notes stay hidden when you toggle all notes from the tray. In the main window, hidden notes are dimmed and show an eye icon; click one to show it again.
+
+## About
 
 Sticky is a note-taking app for the Linux desktop that simulates traditional "sticky note" style stationery on your desktop. Some of its features include basic text formatting (bold, italics, monospaced, etc.), spell-checking, a tray icon for controlling note visibility, color notes, manual and automatic backups, and a manager to organize your notes into groups. Sticky is written in Python, and uses the GTK3 toolkit
 
@@ -11,7 +18,7 @@ Sticky is a note-taking app for the Linux desktop that simulates traditional "st
 ### Download the source code and enter the source directory
 ```
 # Clone this repo:
-git clone https://github.com/collinss/sticky.git
+git clone https://github.com/lukaszzalewski/sticky.git
 
 # Enter the folder:
 cd sticky
